@@ -1,10 +1,61 @@
+
+
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    font-size 1.5rem;
+
+    margin: 0;
+    display: flex;
+   
+    align-items: center;
+    background-color: #1a1a1a;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.1), transparent 50%);
+    overflow: hidden;
+
 }
 
+background-effect {
+    position: center;
+    top: 50%;
+    left: 50%;
+   
+    background: #1a1a1a;
+    box-shadow: 
+        0 0 20px rgba(255, 255, 255, 0.1), /* Lätt vit skugga */
+        0 0 50px rgba(255, 255, 255, 0.05), /* Lite större men subtil vit glöd */
+        0 0 100px rgba(255, 255, 255, 0.03); /* Subtil större vit glöd */
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Lägg bakgrundseffekten bakom allt */
+   
+}
+
+h1 {
+    color: #876510; 
+    font-weight: 700;
+    text-align: center; 
+    margin-top: 20px;
+    
+}
+h2 {
+        color: #e3d515; 
+        font-weight: 700;
+        text-align: center; 
+        margin-top: 20px;
+        
+}
+h3 {
+            color: #e7ff63; 
+            font-weight: 700;
+            text-align: center; 
+            margin-top: 20px;
+            
+           
+}
 main {
+    color: #ecef91;
+    line-height: 1.6; 
+    font-size: 18px;
+    margin: 20px;
     max-width: 80ch;
+    text-align: center;
     margin-inline: auto;
+    
 }
-
