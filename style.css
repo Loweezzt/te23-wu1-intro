@@ -12,25 +12,22 @@ body {
 
 background-effect {
     position: center;
-    top: 50%;
-    left: 50%;
+    top: 100%;
+    left: 100%;
 
     background: #1a1a1a;
     box-shadow:
         0 0 20px rgba(255, 255, 255, 0.1),
-        /* Lätt vit skugga */
         0 0 50px rgba(255, 255, 255, 0.05),
-        /* Lite större men subtil vit glöd */
         0 0 100px rgba(255, 255, 255, 0.03);
-    /* Subtil större vit glöd */
     transform: translate(-50%, -50%);
     z-index: -1;
-    /* Lägg bakgrundseffekten bakom allt */
+   
 
 }
 
 h1 {
-    color: #876510;
+    color: #7c7c7c;
     font-weight: 700;
     text-align: center;
     margin-top: 20px;
@@ -38,7 +35,7 @@ h1 {
 }
 
 h2 {
-    color: #e3d515;
+    color: #7c7c7c;
     font-weight: 700;
     text-align: center;
     margin-top: 20px;
@@ -46,7 +43,7 @@ h2 {
 }
 
 h3 {
-    color: #e7ff63;
+    color: #ffffff;
     font-weight: 700;
     text-align: center;
     margin-top: 20px;
@@ -55,7 +52,7 @@ h3 {
 }
 
 main {
-    color: #ecef91;
+    color: #ffffff;
     line-height: 1.6;
     font-size: 18px;
     margin: 20px;
